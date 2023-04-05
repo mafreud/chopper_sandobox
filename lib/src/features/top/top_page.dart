@@ -1,7 +1,8 @@
-import 'package:chopper_sandobox/src/features/beer/repository/beer_repository.dart';
-import 'package:chopper_sandobox/src/features/wine/repository/wine_repository.dart';
+import 'package:chopper_sandobox/src/features/beer/data/repository/beer_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../wine/data/repository/wine_repository.dart';
 
 class TopPage extends ConsumerWidget {
   const TopPage({super.key});

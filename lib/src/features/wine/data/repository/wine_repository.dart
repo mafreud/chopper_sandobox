@@ -1,7 +1,7 @@
-import 'package:chopper_sandobox/src/features/wine/repository/client/wine_client.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-import '../../../utilities/chopper/chopper_helper.dart';
+import '../../../../utilities/chopper/chopper_helper.dart';
+import 'client/wine_client.dart';
 
 part 'wine_repository.g.dart';
 
