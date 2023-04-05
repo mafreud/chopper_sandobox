@@ -6,7 +6,7 @@ part of 'wine_repository.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$wineRepositoryHash() => r'd15cfb7966de4b04f15667d669b3bd0bafd83703';
+String _$wineRepositoryHash() => r'c0e459e46ed88592f6ec5bfeec36d132e08309fc';
 
 /// See also [WineRepository].
 @ProviderFor(WineRepository)

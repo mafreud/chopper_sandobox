@@ -3,10 +3,10 @@ import 'package:chopper_sandobox/src/features/beer/repository/client/beer_client
 import 'package:chopper_sandobox/src/features/wine/repository/client/wine_client.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-part 'chopper_service.g.dart';
+part 'chopper_helper.g.dart';
 
 @riverpod
-class ChopperService extends _$ChopperService {
+class ChopperHelper extends _$ChopperHelper {
   @override
   void build() {}
 

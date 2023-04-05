@@ -1,4 +1,4 @@
-import 'package:chopper_sandobox/src/utilities/chopper/chopper_service.dart';
+import 'package:chopper_sandobox/src/utilities/chopper/chopper_helper.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import 'client/beer_client.dart';
@@ -11,7 +11,7 @@ class BeerRepository extends _$BeerRepository {
   void build() {}
 
   BeerClient get client =>
-      ref.read(chopperServiceProvider.notifier).client.getService<BeerClient>();
+      ref.read(chopperHelperProvider.notifier).client.getService<BeerClient>();
 
   Future<dynamic> getAle() async {
     final response = await client.getAle();

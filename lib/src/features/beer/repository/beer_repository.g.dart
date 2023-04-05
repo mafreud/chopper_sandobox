@@ -6,7 +6,7 @@ part of 'beer_repository.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$beerRepositoryHash() => r'2a105cc8b32c30821e8fe65bd9d7f6ba6b62937b';
+String _$beerRepositoryHash() => r'c1c8db050d315df551aa952c04e8ea427d367540';
 
 /// See also [BeerRepository].
 @ProviderFor(BeerRepository)
