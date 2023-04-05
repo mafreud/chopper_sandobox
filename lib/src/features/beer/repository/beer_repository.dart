@@ -1,4 +1,3 @@
-import 'package:chopper/chopper.dart';
 import 'package:chopper_sandobox/src/utilities/chopper/chopper_service.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
